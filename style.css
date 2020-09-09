@@ -70,14 +70,14 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-input{
+li{
     height: 50px;
     display:block;
     width:100%;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    background-color:green;
+    background-color:lightgreen;
     color: white;
     font-size: 1.5em;
     line-height: 1.5;
