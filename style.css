@@ -69,3 +69,16 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+input{
+    height: 50px;
+    display:block;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color:green;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
