@@ -30,9 +30,9 @@ window.onload = function(){
 }
 
 // reset button, however, not functioning properly
-$('#resetBtn').on('click', function(){
-    $('.reset').innerHTML="";
-})
+// $('#resetBtn').on('click', function(){
+//     $('.reset').innerHTML="";
+// })
 
 // single function, filter using ID of the target element 
 // calling all save buttons so when we click on the designated event, it targets the correct case
@@ -96,7 +96,7 @@ console.log(now.hour());
 // conditionals
 // if current time = the hour we are in, in this case 9, turn light green
 // if current time < the hour of input container, then turn light yellow
-// if current time has already passed, turn grey
+// if current time has already passed, add css to turn turn grey
     if(now.hour() === 9){
         $(".nine").css("background-color", "lightgreen")
     }else if(now.hour()< 9){
