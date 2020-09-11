@@ -83,6 +83,97 @@ $('button').click(function(e) {
     }
 })
 
-//Color functions ??
+//Color functions 
+// adding data-time Attributes
+$(".nine").attr("data-time")
+// using moment() for time
+const now = moment();
 
+// verifying it works
+console.log(now);
+console.log(now.hour());
+
+// conditionals
+// if current time = the hour we are in, in this case 9, turn light green
+// if current time < the hour of input container, then turn light yellow
+// if current time has already passed, turn grey
+    if(now.hour() === 9){
+        $(".nine").css("background-color", "lightgreen")
+    }else if(now.hour()< 9){
+        $(".nine").css("background-color", "lightyellow")
+    }else{
+        $(".nine").css("background-color", "lightgrey")
+    }
+
+$(".ten").attr("data-time")
+
+    if(now.hour() === 10){
+        $(".ten").css("background-color", "lightgreen")
+    }else if(now.hour()< 10){
+        $(".ten").css("background-color", "lightyellow")
+    }else{
+        $(".ten").css("background-color", "lightgrey")
+    }
+$(".eleven").attr("data-time")
+    if(now.hour() === 11){
+        $(".eleven").css("background-color", "lightgreen")
+    }else if(now.hour()< 11){
+        $(".eleven").css("background-color", "lightyellow")
+    }else{
+        $(".eleven").css("background-color", "lightgrey")
+    }
+
+$(".twelve").attr("data-time")
+    if(now.hour() === 12){
+        $(".twelve").css("background-color", "lightgreen")
+    }else if(now.hour()< 12){
+        $(".twelve").css("background-color", "lightyellow")
+    }else{
+        $(".twelve").css("background-color", "lightgrey")
+    }
+
+$(".one").attr("data-time")
+    if(now.hour() === 13){
+        $(".one").css("background-color", "lightgreen")
+    }else if(now.hour() < 13){
+        $(".one").css("background-color", "lightyellow")
+    }else{
+        $(".one").css("background-color", "lightgrey")
+    }
+
+$(".two").attr("data-time")
+    if(now.hour() === 14){
+        $(".two").css("background-color", "lightgreen")
+    }else if(now.hour() < 14){
+        $(".two").css("background-color", "lightyellow")
+    }else{
+        $(".two").css("background-color", "lightgrey")
+    }
+
+$(".three").attr("data-time")
+    if(now.hour() === 15){
+        $(".three").css("background-color", "lightgreen")
+    }else if(now.hour() < 15){
+        $(".three").css("background-color", "lightyellow")
+    }else{
+        $(".three").css("background-color", "lightgrey")
+    }
+
+$(".four").attr("data-time")
+    if(now.hour() === 16){
+        $(".four").css("background-color", "lightgreen")
+    }else if(now.hour() < 16){
+        $(".four").css("background-color", "lightyellow")
+    }else{
+        $(".four").css("background-color", "lightgrey")
+    }
+
+$(".five").attr("data-time")
+    if(now.hour() === 17){
+        $(".five").css("background-color", "lightgreen")
+    }else if(now.hour() < 17){
+        $(".five").css("background-color", "lightyellow")
+    }else{
+        $(".five").css("background-color", "lightgrey")
+    }
 
