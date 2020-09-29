@@ -2,7 +2,7 @@
 
 ### Deployed Application 
 
-[Weather Dashboard](https://areye022.github.io/workdayscheduler/)
+[Workd Day Scheduler](https://areye022.github.io/workdayscheduler/)
 
 ![Screenshot of Weather Dashboard](workday.JPG)
 
