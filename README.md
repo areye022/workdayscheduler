@@ -1,7 +1,20 @@
-# workdayscheduler
+# Weather Dashboard
 
-I created a daily planner for the workhours of 9am-5pm. It is color coordinated in grey, green, and pink, depending on whether that hour of the day as passed already. Each hour has a timeblock that allows you to input and save your todo items for that hour. 
+### Deployed Application 
 
-<p> Below is the link to the planner</p>
-https://areye022.github.io/workdayscheduler/
+[Weather Dashboard](https://areye022.github.io/workdayscheduler/)
+
+![Screenshot of Weather Dashboard](workday.JPG)
+
+### Description 
+This application allows users to generate a daily work schedule.
+
+When the workscheduler is utilized, users will be able to save tasks and events into the selected timeblocks. Each time block will have a color of grey, gree, or yellow. Grey will signify that the timeblock has already passed. Green signifies the current timeblock we are in, and yellow signifies future timeblocks.
+
+### Features
+* Saves all features to local storage so that events persist throughout day. 
+* Utilizes Bootstrap features such as jumbotron, containers, etc.   
+* Utilizes moment() to keep track of date and time. 
+
+
 
