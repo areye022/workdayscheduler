@@ -1,4 +1,4 @@
-# Workday Scheduler
+# Work Day Scheduler
 
 ### Deployed Application 
 
