@@ -4,7 +4,7 @@
 
 [Workd Day Scheduler](https://areye022.github.io/workdayscheduler/)
 
-![Screenshot of Weather Dashboard](workday.JPG)
+![Screenshot of Workday Scheduler](workday.JPG)
 
 ### Description 
 This application allows users to generate a daily work schedule.
