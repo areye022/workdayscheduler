@@ -2,7 +2,7 @@
 
 ### Deployed Application 
 
-[Workd Day Scheduler](https://areye022.github.io/workdayscheduler/)
+[Work Day Scheduler](https://areye022.github.io/workdayscheduler/)
 
 ![Screenshot of Workday Scheduler](workday.JPG)
 
